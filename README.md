@@ -80,3 +80,12 @@ npm install dotenv
 ```
 
 2. **add environment variables to `config/config.env`**
+
+## Error Response
+
+```javascript
+{
+  success: false,
+  error: 'Custom Error Info'
+}
+```
