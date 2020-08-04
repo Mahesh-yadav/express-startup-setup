@@ -1,3 +1,15 @@
+# Express.js project startup folder
+
+This project create a basic project setup to create express server.
+
+The project use **`eslint`** for linting, **`babel`** to allow usage of latest javascript features and **`nodemon`** to automatically restart server on changes.
+
+**Project Dependencies**
+
+1. express
+2. dotenv
+3. morgan
+
 ## Add Linting Support - [**ESLint**](https://eslint.org/)
 
 1. **Install ESLint**
