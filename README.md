@@ -64,3 +64,19 @@ npm install nodemon --save-dev
 ```
 npm install express
 ```
+
+## Add [**morgan**](https://www.npmjs.com/package/morgan) to log requests
+
+```
+npm install morgan
+```
+
+## Manage `environment` variables using `.env` file
+
+1. **Add [dotenv](https://github.com/motdotla/dotenv)**
+
+```
+npm install dotenv
+```
+
+2. **add environment variables to `config/config.env`**
