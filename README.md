@@ -42,3 +42,25 @@ npm install @babel/core @babel/cli @babel/preset-env --save-dev
 ```
 "compile": "babel --watch src --out-dir dist"
 ```
+
+## Add [**nodemon**](https://nodemon.io/) to automatically restart
+
+1. **Install nodemon**
+
+```
+npm install nodemon --save-dev
+```
+
+2. **Configure nodemon - `nodemon.json`**
+
+```json
+{
+  "ignore": ["src", "node_modules"]
+}
+```
+
+## Add [**Express**](https://expressjs.com/)
+
+```
+npm install express
+```
